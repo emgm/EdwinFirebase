@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/registarPartido"
+        android:title="@string/opcionGuardar"
+        android:icon="@drawable/ic_save"
+        app:showAsAction="always"
+        />
+
+
+    <item
+
+        android:id="@+id/opcion1"
+        android:title="Help"
+
+        />
+
+    <item
+
+        android:id="@+id/opcion2"
+        android:title="About"
+
+        />
+
+    <item
+
+        android:id="@+id/opcion3"
+        android:title="Contact"
+
+        />
+
+
+</menu>

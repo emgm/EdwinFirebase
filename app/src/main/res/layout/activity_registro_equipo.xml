@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="app.edwinfirebase.RegistroEquipo">
+
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/myToolbar"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registro equipos"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        />
+
+    <EditText
+        android:id="@+id/etNameTeamA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:hint="Nombre Equipo A" />
+
+
+    <EditText
+        android:id="@+id/etNameTeamB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre Equipo B"
+        android:layout_margin="16dp"
+        />
+
+
+    <Button
+        android:id="@+id/btnRegistrarEquipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Registro Equipo"
+        android:textAllCaps="false"
+        />
+
+
+</LinearLayout>

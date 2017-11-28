@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="app.edwinfirebase.MainActivity">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/myToolbar"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:id="@+id/tvNameTeamA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Team A"
+                android:textSize="40sp"
+
+                />
+
+
+            <TextView
+
+                android:id="@+id/tvScoreTeamA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="35sp"
+
+                />
+
+
+            <Button
+
+                android:id="@+id/btnMore3PointTeamA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:background="#009688"
+                android:text="+3 puntos"
+                android:textAllCaps="false"
+                android:textColor="#FAFAFA"
+                android:layout_marginTop="10dp"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnMore2PointTeamA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:background="#009688"
+                android:text="+2 puntos"
+                android:textColor="#FAFAFA"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnMore1PointTeamA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#009688"
+                android:text="+1 puntos"
+                android:textColor="#FAFAFA"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+
+                android:id="@+id/tvNameTeamB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Team B"
+
+                android:textSize="40sp" />
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="35sp"
+
+                />
+
+
+            <Button
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+3 puntos"
+                android:textAllCaps="false"
+                android:layout_marginTop="10dp"
+                android:background="#009688"
+                android:textColor="#FAFAFA"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:layout_marginBottom="16dp"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+2 puntos"
+                android:background="#009688"
+                android:textColor="#FAFAFA"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:layout_marginBottom="16dp"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+1 puntos"
+                android:background="#009688"
+                android:textColor="#FAFAFA"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
